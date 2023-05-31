@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
 
-disp = pd.read_csv('/home/cchartree/static/BMA Fiscal Budgets 2023 for deployment.csv')
+disp = pd.read_csv('BMA Fiscal Budgets 2023 for deployment.csv')
 disp['All_Categories'] = 1
 
 list_topics = [
